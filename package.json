@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://22b1074.github.io/preethi-irscp",
+  "homepage": "https://22b1074.github.io/irscp_preethi",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
