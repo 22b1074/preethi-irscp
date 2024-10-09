@@ -1,13 +1,13 @@
 import React from 'react';
-
 const AboutSection = () => {
     return (
         <div className="bg-white py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Upper 3/4th: Image on the left and paragraphs on the right */}
-                <div className="flex flex-col lg:flex-row lg:items-start">
+                {/* About Us Title */}
+                <h2 className="text-2xl font-extrabold text-gray-900">About Us</h2>
+                <div className="flex flex-col lg:flex-row lg:items-start mt-4">
                     {/* Left Side: Team Image */}
-                    <div className="flex-1 lg:pr-8 mb-8 lg:mb-0">
+                    <div className="flex-1 lg:pr-8 mb-8 lg:mb-0 mt-4"> {/* Added margin-top here */}
                         <img
                             src="/files/irscp-group.jpg" // Replace with your team image URL
                             alt="Team"
@@ -17,7 +17,6 @@ const AboutSection = () => {
 
                     {/* Right Side: Text */}
                     <div className="flex-1 flex flex-col justify-center">
-                        <h2 className="text-2xl font-extrabold text-gray-900">About Us</h2>
                         <p className="mt-4 text-gray-700">
                             Institute Research Scholar Companion Programme (IRSCP) is a programme for the PhD Community of IIT Bombay with the primary objective to cater to the needs of research scholars.
                         </p>
@@ -34,7 +33,7 @@ const AboutSection = () => {
                 <div className="mt-12">
                     <ul
                         role="list"
-                        className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4"
+                        className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
                     >
                         {boxesData.map((box) => (
                             <li 
